@@ -1,5 +1,4 @@
 const fs = require('fs')
-const { getSystemErrorMap } = require('util')
 const input = fs.readFileSync('../input.file', 'utf8').split('\n')
 
 let calories = 0
